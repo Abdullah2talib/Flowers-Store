@@ -97,6 +97,15 @@ header > div {
   align-items: center;
   margin: 40px 0;
 }
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
 
 .product-options a {
   color: #555;
